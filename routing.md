@@ -43,3 +43,35 @@ Trên bản đồ đã ghi sẵn:
 
 Nói ngắn gọn:
     Định tuyến tĩnh cho quyết định nhanh vì mọi thứ đã được xác định trước.
+#### Nhược điểm
+- Trường có n tòa → phải phát n bản đồ
+- Khi xây thêm tòa mới hoặc sửa đường:
+    - Phải cập nhật bản đồ
+    - Phải phát lại cho từng bảo vệ
+- Nếu bản đồ lỗi thời, bảo vệ vẫn chỉ đường theo bản đồ cũ
+
+Định tuyến tĩnh phù hợp với:
+- Hệ thống nhỏ
+- Ít thay đổi
+- Cần kiểm soát chặt chẽ đường đi
+## Định tuyến động
+#### Khi bảo vệ được phép trao đổi thông tin
+Trong định tuyến động, trường không phát bản đồ.
+Thay vào đó:
+- Mỗi bảo vệ được phép nói chuyện với các bảo vệ ở tòa kế bên
+- Họ trao đổi thông tin về:
+    - Đường mới
+    - Đường bị chặn
+    - Lối đi thuận lợi hơn
+Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ trong đầu” của mình.
+#### Ưu điểm:
+- Không cần phát bản đồ cho từng người
+- Khi trường thay đổi, thông tin tự lan truyền
+- Hệ thống thích nghi tốt với quy mô lớn
+#### Nhược điểm:
+- Khi học sinh hỏi đường, bảo vệ có thể cần:
+    "Để anh hỏi bảo vệ tòa kế bên trước đã"
+- Thông tin cần thời gian để lan truyền
+- Có chi phí trao đổi thông tin giữa các bảo vệ
+Tóm lại:
+    Định tuyến động linh hoạt hơn, nhưng quyết định không tức thì như định tuyến tĩnh.
