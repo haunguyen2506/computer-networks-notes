@@ -14,7 +14,7 @@ Thay vì bắt đầu bằng bảng biểu hay thuật toán, ta hãy nhìn bài
 Giả sử một trường học có n tòa nhà.
 Mỗi tòa có một bảo vệ với các đặc điểm sau:
 
-- Mỗi bảo vệ chỉ biết các tòa nhà kế bên mình
+- Mỗi bảo vệ chỉ biết các tòa nhà mà tòa của mình **có lối đi trực tiếp kết nối tới**.
 - Không ai có cái nhìn toàn bộ trường
 - Khi có học sinh hỏi đường từ tòa A sang tòa B, bảo vệ phải quyết định chỉ học sinh đi hướng nào tiếp theo
 
@@ -88,7 +88,7 @@ Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ tron
 - Có chi phí trao đổi thông tin giữa các bảo vệ
 
 Tóm lại:
-> Định tuyến động linh hoạt hơn, nhưng quyết định không tức thì như định tuyến tĩnh.
+> **Định tuyến động linh hoạt hơn, nhưng quyết định không tức thì như định tuyến tĩnh.**
 
 ## 5. So sánh hai cách tiếp cận
 
