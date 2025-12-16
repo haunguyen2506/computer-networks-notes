@@ -54,7 +54,7 @@ Nói ngắn gọn:
 - Hệ thống nhỏ
 - Ít thay đổi
 - Cần kiểm soát chặt chẽ đường đi
-## Định tuyến động
+## 4. Định tuyến động
 #### Khi bảo vệ được phép trao đổi thông tin
 Trong định tuyến động, trường không phát bản đồ.
 Thay vào đó:
@@ -70,7 +70,7 @@ Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ tron
 - Hệ thống thích nghi tốt với quy mô lớn
 #### Nhược điểm:
 - Khi học sinh hỏi đường, bảo vệ có thể cần:
-    "Để anh hỏi bảo vệ tòa kế bên trước đã"
+    \quote{"Để anh hỏi bảo vệ tòa kế bên trước đã"}
 - Thông tin cần thời gian để lan truyền
 - Có chi phí trao đổi thông tin giữa các bảo vệ
 Tóm lại:
