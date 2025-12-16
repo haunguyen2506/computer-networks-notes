@@ -86,6 +86,7 @@ Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ tron
 - Khi học sinh hỏi đường, bảo vệ có thể cần: "Để anh hỏi bảo vệ tòa kế bên trước đã"
 - Thông tin cần thời gian để lan truyền
 - Có chi phí trao đổi thông tin giữa các bảo vệ
+
 Tóm lại:
 > Định tuyến động linh hoạt hơn, nhưng quyết định không tức thì như định tuyến tĩnh.
 
