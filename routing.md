@@ -1,4 +1,4 @@
-# Định tuyến mạng máy tính qua ẩn dụ bảo vệ trường học
+# Định tuyến trong mạng máy tính
 
 Bài viết này nhằm giúp sinh viên hiểu bản chất của định tuyến
 trước khi đi vào các giao thức cụ thể.
