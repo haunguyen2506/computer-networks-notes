@@ -33,7 +33,7 @@ Trong mạng máy tính:
 
 ## 3. Định tuyến tĩnh
 
-#### Khi mỗi bảo vệ được phát một bản đồ
+### Khi mỗi bảo vệ được phát một bản đồ
 
 Trong định tuyến tĩnh, ban quản lý phát cho mỗi bảo vệ một bản đồ toàn trường.
 Trên bản đồ đã ghi sẵn:
@@ -69,7 +69,7 @@ Nói ngắn gọn:
 
 Trong định tuyến động, trường không phát bản đồ.
 Thay vào đó:
-- Mỗi bảo vệ được phép nói chuyện với các bảo vệ ở tòa kế bên
+- Mỗi bảo vệ được phép nói chuyện với các bảo vệ ở tòa có kết nối trực tiếp với mình.
 - Họ trao đổi thông tin về:
     - Đường mới
     - Đường bị chặn
