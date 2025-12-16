@@ -15,9 +15,7 @@ Giả sử một trường học có n tòa nhà.
 Mỗi tòa có một bảo vệ với các đặc điểm sau:
 
 - Mỗi bảo vệ chỉ biết các tòa nhà kế bên mình
-
 - Không ai có cái nhìn toàn bộ trường
-
 - Khi có học sinh hỏi đường từ tòa A sang tòa B, bảo vệ phải quyết định chỉ học sinh đi hướng nào tiếp theo
 
 Trong mạng máy tính:
@@ -26,24 +24,32 @@ Trong mạng máy tính:
 - Chỉ đường ↔ định tuyến
 
 Điều quan trọng là:
+
 > **Bảo vệ không cần biết toàn bộ lộ trình, chỉ cần biết bước tiếp theo.**
 
 **Đây chính là bản chất của định tuyến.**
 
 ## 3. Định tuyến tĩnh
+
 #### Khi mỗi bảo vệ được phát một bản đồ
+
 Trong định tuyến tĩnh, ban quản lý phát cho mỗi bảo vệ một bản đồ toàn trường.
 Trên bản đồ đã ghi sẵn:
 - Muốn đi tới tòa nào thì rẽ hướng nào
 - Mọi lộ trình đều được xác định trước
+
 ### Ưu điểm
+
 - Khi học sinh hỏi đường, bảo vệ chỉ cần nhìn bản đồ và trả lời ngay
 - Không cần hỏi bảo vệ khác
 - Quyết định nhanh, ổn định, dễ dự đoán
 
 Nói ngắn gọn:
+
 > **Định tuyến tĩnh cho quyết định nhanh vì mọi thứ đã được xác định trước.**
+
 ### Nhược điểm
+
 - Trường có n tòa → phải phát n bản đồ
 - Khi xây thêm tòa mới hoặc sửa đường:
     - Phải cập nhật bản đồ
@@ -54,8 +60,11 @@ Nói ngắn gọn:
 - Hệ thống nhỏ
 - Ít thay đổi
 - Cần kiểm soát chặt chẽ đường đi
+
 ## 4. Định tuyến động
+
 ### Khi bảo vệ được phép trao đổi thông tin
+
 Trong định tuyến động, trường không phát bản đồ.
 Thay vào đó:
 - Mỗi bảo vệ được phép nói chuyện với các bảo vệ ở tòa kế bên
@@ -65,11 +74,15 @@ Thay vào đó:
     - Lối đi thuận lợi hơn
 
 Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ trong đầu” của mình.
+
 ### Ưu điểm:
+
 - Không cần phát bản đồ cho từng người
 - Khi trường thay đổi, thông tin tự lan truyền
 - Hệ thống thích nghi tốt với quy mô lớn
+
 ### Nhược điểm:
+
 - Khi học sinh hỏi đường, bảo vệ có thể cần: "Để anh hỏi bảo vệ tòa kế bên trước đã"
 - Thông tin cần thời gian để lan truyền
 - Có chi phí trao đổi thông tin giữa các bảo vệ
