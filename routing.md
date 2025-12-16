@@ -21,9 +21,9 @@ Mỗi tòa có một bảo vệ với các đặc điểm sau:
 - Khi có học sinh hỏi đường từ tòa A sang tòa B, bảo vệ phải quyết định chỉ học sinh đi hướng nào tiếp theo
 
 Trong mạng máy tính:
-- Tòa nhà <-> node
-- Bảo vệ <-> router
-- Chỉ đường <-> định tuyến
+- Tòa nhà ↔ node
+- Bảo vệ ↔ router
+- Chỉ đường ↔ định tuyến
 
 Điều quan trọng là:
     Bảo vệ không cần biết toàn bộ lộ trình, chỉ cần biết bước tiếp theo.
@@ -75,3 +75,23 @@ Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ tron
 - Có chi phí trao đổi thông tin giữa các bảo vệ
 Tóm lại:
     Định tuyến động linh hoạt hơn, nhưng quyết định không tức thì như định tuyến tĩnh.
+
+## 5. So sánh hai cách tiếp cận
+
+| Tiêu chí            | Định tuyến tĩnh | Định tuyến động    |
+| ------------------- | --------------- | ------------------ |
+| Cách biết đường     | Bản đồ có sẵn   | Trao đổi thông tin |
+| Khả năng thích nghi | Thấp            | Cao                |
+| Quy mô phù hợp      | Nhỏ, ổn định    | Lớn, hay thay đổi  |
+| Thời gian phản hồi  | Rất nhanh       | Có thể chậm hơn    |
+
+
+## 6. Điều cần nhớ
+
+Không cần ghi nhớ mọi thuật toán ngay từ đầu.
+Điều quan trọng nhất là hiểu cách "bảo vệ" suy nghĩ:
+- Mỗi router chỉ biết một phần mạng
+- Router không cần biết toàn bộ đường đi
+- Router chỉ quyết định bước tiếp theo nên đi đâu
+
+Nếu nắm được điều này, việc học các giao thức định tuyến cụ thể sau này sẽ trở nên dễ dàng hơn.
