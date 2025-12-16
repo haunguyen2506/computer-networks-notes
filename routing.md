@@ -70,7 +70,7 @@ Từ các thông tin này, mỗi bảo vệ tự xây dựng “bản đồ tron
 - Hệ thống thích nghi tốt với quy mô lớn
 #### Nhược điểm:
 - Khi học sinh hỏi đường, bảo vệ có thể cần:
-    \quote{"Để anh hỏi bảo vệ tòa kế bên trước đã"}
+    $\quote{"Để anh hỏi bảo vệ tòa kế bên trước đã"}$
 - Thông tin cần thời gian để lan truyền
 - Có chi phí trao đổi thông tin giữa các bảo vệ
 Tóm lại:
