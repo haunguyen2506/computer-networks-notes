@@ -9,7 +9,7 @@ mà là **hiểu để học tiếp các phần nâng cao dễ hơn**.
 
 ---
 
-## 📡 Nội dung
+## Nội dung
 
 ### Phần 1: Định tuyến
 - [Định tuyến mạng máy tính qua ẩn dụ bảo vệ trường học](routing.md)
