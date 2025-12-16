@@ -1,6 +1,6 @@
 # Định tuyến trong mạng máy tính
 
-Bài viết này nhằm giúp sinh viên hiểu bản chất của định tuyến
+Bài viết này nhằm giúp các bạn hiểu bản chất của định tuyến
 trước khi đi vào các giao thức cụ thể.
 
 ## 1. Định tuyến thực chất là bài toán gì?
