@@ -12,7 +12,7 @@ mà là **hiểu để học tiếp các phần nâng cao dễ hơn**.
 ## Nội dung
 
 ### Phần 1: Định tuyến
-- [Định tuyến mạng máy tính qua ẩn dụ bảo vệ trường học](1.1-routing.md)
-- Điều gì xảy ra khi "đường đi" biến mất *(cập nhật sau)*
+- [1.1. Định tuyến mạng máy tính qua ẩn dụ bảo vệ trường học](1.1-routing.md)
+- 1.2. Điều gì xảy ra khi "đường đi" biến mất *(cập nhật sau)*
 
 ---
