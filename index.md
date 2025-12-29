@@ -13,6 +13,7 @@ mà là **hiểu để học tiếp các phần nâng cao dễ hơn**.
 
 ### Phần 1: Định tuyến
 - [1.1. Định tuyến mạng máy tính qua ẩn dụ bảo vệ trường học](1.1-routing.md)
-- 1.2. Điều gì xảy ra khi "đường đi" biến mất *(cập nhật sau)*
+- [1.2. Điều gì xảy ra khi "đường đi" biến mất](1.2-interface-down.md)
+- 1.3. Từ đi được đến đi tốt: router đánh giá đường đi ra sao? *(cập nhật sau)*
 
 ---
